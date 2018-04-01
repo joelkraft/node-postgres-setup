@@ -1,0 +1,19 @@
+{
+  "name": "postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js",
+    "migrate:up": "node migrations up",
+    "migrate:down": "node migrations down",
+    "migrate:reset": "node migrations down && node migrations up"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.4.1"
+  }
+}
